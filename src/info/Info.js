@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(0,166,255)", "rgb(166,104,255)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -23,9 +23,9 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Victor",
+    lastName: "Malai",
+    initials: "js / php", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -37,35 +37,35 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Romania'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Software Engineer at BinarCode"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "malai9696@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://www.facebook.com/malai.victor.8/https://www.facebook.com/malai.victor.8/",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/m_victor.wb/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/maloun96",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/malai-victor/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -78,11 +78,12 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Victor. I'm a software engineer for BinarCode. I studied CompSci at UBB Cluj-napoca. I love technology and software development since I was a kid, especially a web development. I am enthusiastic, a fast learner, and a very curious person, always looking to improve my knowledge.\n" +
+        "I am sociable and a team-player who always wanted to be up to date with everything that involves technology.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'reactjs', 'reactnative', 'vuejs', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'tailwind', 'php', 'Laravel', 'Symphony'],
+            exposedTo: []
         }
     ,
     hobbies: [
@@ -99,8 +100,8 @@ export const info = {
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'sport',
+            emoji: '⚽'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
