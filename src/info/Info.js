@@ -37,7 +37,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the Romania'
+            text: 'based in Romania'
         },
         {
             emoji: "💼",
@@ -50,12 +50,12 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://www.facebook.com/malai.victor.8/https://www.facebook.com/malai.victor.8/",
+            link: "https://www.facebook.com/malai.victor.8",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://www.instagram.com/m_victor.wb/",
+            link: "https://www.instagram.com/m_victor.wb",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
@@ -65,14 +65,9 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://www.linkedin.com/in/malai-victor/",
+            link: "https://www.linkedin.com/in/malai-victor",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
